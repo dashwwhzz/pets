@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница регистрации в личном кабинете</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+        <!--1.Шапка сайта-->
+        <div class="site-header">
+            <div class="img-site-header"><img class="img1"
+                    src="img/logo.png"
+                    alt="logo"></div>
+            <div class="site-header1">
+                <a href="search.html">Поиск</a>
+                <a href="register.html">Регистрация</a>
+                <a href="profile.html">Личный кабинет</a>
+                <a href="index.html">Главная</a>
+                <a href="add.html">Добавить</a>
+                <a href="#reviews">Отзывы</a>
+            </div>
+        </div>
+    <!--Страница регистрации в личном кабинете-->
+    <div class="main">
+    <form class="head colorHead">
+        <fieldset>
+            <div>
+                <div class="heading">Регистрация в личном кабинете</div>
+                <div>
+                    <div class="text">E-mail</div>
+                    <div><input class="button1 colorButton" type="email" name="type" pattern="+@example\.com" required placeholder="Введите email:"></div>
+                    <div class="text">Имя</div>
+                    <div><input class="button1 colorButton" type="text" name="name" id="name" required placeholder="Введите имя"></div>
+                    <div class="text">Фамилия</div>
+                    <div><input class="button1 colorButton" type="text" name="firstname" id="firstname" required placeholder="Введите фамилию"></div>
+                    <div class="text">Телефон</div>
+                    <div><input  class="button1 colorButton" type="text" id="phone" name="phone" required placeholder="+7 (987) 654-32-10" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"></div>
+                    <div class="text">Пароль</div>
+                    <div><input class="button1 colorButton" type="password" name="password" placeholder="Введите пароль"></div>
+                    <div class="text">Повторите пароль</div>
+                    <div><input class="button1 colorButton" type="password" name="password" placeholder="Повторите пароль"></div>
+                    <div class="Subscription">
+                        <div>
+                            <input class="checkbox" type="checkbox" name="Subscription" id="Subscription">
+                        </div>
+                        <div class="subscription"> <label for="Subscription">подтвердите согласие на обработку персональных данных</label></div>
+                    </div>
+                    <div><input class="button2 colorSubmit" type="submit" name="submit" value="Зарегистрироваться"></div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    </div>
+    <!-- 9.Подвал сайта-->
+    <footer class="basement">
+        <hr>
+        <div>
+            <div class="contacts ">
+                <div class="contacts1 color-contacts">Телефон “8 (800)123-45-67” </div>
+                <div class="color-contacts">e-mail: mail@newlife.ru</div>
+            </div>
+            <div>
+                <div class="color-contacts">Навигация по сайту:</div>
+                <a href="index.html">Главная</a><br>
+                <a href="register.html">Регистрация</a><br>
+                <a href="login.html">Авторизация</a><br>
+                <a href="profile.html">Личный кабинет</a><br>
+                <a href="pet.html">Найдено животное</a><br>
+                <a href="search.html">Поиск</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

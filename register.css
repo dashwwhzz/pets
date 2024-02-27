@@ -1,0 +1,158 @@
+.basement {
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.foto_pet {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.img1 {
+    width: 80px;
+    height: 80px;
+}
+
+.site-header1 {
+    margin-right: 50px;
+    margin-left: 3%;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+.img-site-header {
+    margin-left: 33%;
+}
+
+a {
+    color: #cf9e81;
+    text-decoration: none;
+}
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts1 {
+    margin-right: 15px;
+}
+
+.color-contacts {
+    color: #6f5545;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+.heading {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.head {
+    /* margin-left: 33%; */
+    margin-top: 100px;
+    width: 650px;
+    margin-bottom: 5%;
+}
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 420px;
+    height: 30px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.colorSubmit {
+    background-color: #92705b;
+}
+
+.colorHead {
+    background-color: #deaf93;
+}
+
+.colorButton {
+    background-color: #efe2e2;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 8px;
+}
+
+.text {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    margin-bottom: 6px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.Subscription {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.subscription {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.checkbox {
+    margin-left: 40px;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/fon.webp);
+}

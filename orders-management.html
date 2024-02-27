@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="orders-management.css">
+</head>
+<body>
+    <!--1.Шапка сайта-->
+    <div class="site-header">
+        <div class="img-site-header"><img class="img1" src="img/logo.png" alt="logo"></div>
+        <div class="site-header1">
+            <a href="search.html">Поиск</a>
+            <a href="register.html">Регистрация</a>
+            <a href="profile.html">Личный кабинет</a>
+            <a href="index.html">Главная</a>
+            <a href="add.html">Добавить</a>
+            <a href="#reviews">Отзывы</a>
+        </div>
+    </div>
+    <table>
+        <tr><td colspan="4">
+            
+            <!-- Сортировка по дате и статусу -->
+        <form>
+            <input class="sortirovka_button" type="text" placeholder="Сортировать по ..." list="sortirovka">
+            <datalist id="sortirovka">
+                <option value=""></option>
+                <option value="Сортировать по дате"></option>
+                <option value="Сортировать по статусу"></option>
+            </datalist>
+            </form>
+
+        </td></tr>
+        <!-- Первая строчка -->
+        <tr>
+            <td rowspan="5" class="data_information information_table td_bottom">15.10.2023</td>
+            <td rowspan="5" class="statys_table  td_bottom">
+                <div class="statys">
+                    Активно
+                </div>
+                <div><button class="button_table button">Изменить</button></div>
+            </td>
+            <td rowspan="5" class="foto_table  td_bottom"><img class="foto_profile" src="img/profile/cat1.jpg" alt=""></td>
+            <td class="conteiner_data_table">
+                <div class="conteiner_data">
+                    <div class="text_phone1">Номер телефона: </div>
+                    <div class="text_phone2">+7 (987) 654-32-10</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="conteiner_data">
+                    <div class="text_phone1">Введите e-mail: </div>
+                    <div class="text_phone2">olegMiska@gmail.com</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="area">Московский район</td>
+        </tr>
+        <tr>
+            <td class="opisanie">Нашли в подъезде, сидела в углу на 2 этаже</td>
+        </tr>
+        <tr>
+            <td class="clemo td_bottom">Клеймо имеется</td>
+        </tr>
+        <!-- Вторая строчка -->
+        <tr>
+            <td rowspan="5" class="data_information information_table td_bottom">03.03.2022</td>
+            <td rowspan="5" class="statys_table td_bottom">
+                <div class="statys">
+                    На модерации
+                </div>
+                <div><button class="button_table button">Изменить</button></div>
+            </td>
+            <td rowspan="5" class="foto_table td_bottom"><img class="foto_profile" src="img/profile/pig1.jpeg" alt=""></td>
+            <td class="conteiner_data_table">
+                <div class="conteiner_data">
+                    <div class="text_phone1">Номер телефона: </div>
+                    <div class="text_phone2">+7 (987) 654-32-10</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="conteiner_data">
+                    <div class="text_phone1">Введите e-mail: </div>
+                    <div class="text_phone2">olegMiska@gmail.com</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="area">Красногвардейский район</td>
+        </tr>
+        <tr>
+            <td class="opisanie">Нашли около мусорки, очень голодная</td>
+        </tr>
+        <tr>
+            <td class="clemo td_bottom">Клеймо отсутствует</td>
+        </tr>
+        <!-- Третья строчка -->
+        <tr>
+            <td rowspan="5" class="data_information information_table td_bottom">28.02.2021</td>
+            <td rowspan="5" class="statys_table td_bottom">
+                <div class="statys">
+                    Найдено
+                </div>
+                <div><button class="button_table button">Изменить</button></div>
+            </td>
+            <td rowspan="5" class="foto_table td_bottom"><img class="foto_profile" src="img/profile/dog1.jpg" alt=""></td>
+            <td class="conteiner_data_table">
+                <div class="conteiner_data">
+                    <div class="text_phone1">Номер телефона: </div>
+                    <div class="text_phone2">+7 (987) 654-32-10</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="conteiner_data">
+                    <div class="text_phone1">Введите e-mail: </div>
+                    <div class="text_phone2">olegMiska@gmail.com</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="area">Пушкинский район</td>
+        </tr>
+        <tr>
+            <td class="opisanie">Хозяева привязали у магазина, сидит уже давно</td>
+        </tr>
+        <tr>
+            <td class="clemo td_bottom">Клеймо отсутствует</td>
+        </tr>
+        <!-- Четвертая строчка -->
+        <tr>
+            <td rowspan="5" class="data_information information_table td_bottom">28.02.2021</td>
+            <td rowspan="5" class="statys_table td_bottom">
+                <div class="statys">
+                    В архиве
+                </div>
+                <div><button class="button_table button">Изменить</button></div>
+            </td>
+            <td rowspan="5" class="foto_table td_bottom"><img class="foto_profile" src="img/profile/dog2.webp" alt=""></td>
+            <td class="conteiner_data_table">
+                <div class="conteiner_data">
+                    <div class="text_phone1">Номер телефона: </div>
+                    <div class="text_phone2">+7 (987) 654-32-10</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="conteiner_data">
+                    <div class="text_phone1">Введите e-mail: </div>
+                    <div class="text_phone2">olegMiska@gmail.com</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="area">Невский район</td>
+        </tr>
+        <tr>
+            <td class="opisanie">Бегала по проезжей части, чуть не задавили</td>
+        </tr>
+        <tr>
+            <td class="clemo td_bottom">Клеймо имеется</td>
+        </tr>
+        <!-- Пятая строчка -->
+        <tr>
+            <td rowspan="5" class="data_information information_table">24.02.2023</td>
+            <td rowspan="5" class="statys_table">
+                <div class="statys">
+                    На модерации
+                </div>
+                <div><button class="button_table button">Изменить</button></div>
+            </td>
+            <td rowspan="5" class="foto_table"><img class="foto_profile" src="img/guinea_pig.jpg" alt=""></td>
+            <td class="conteiner_data_table">
+                <div class="conteiner_data">
+                    <div class="text_phone1">Номер телефона: </div>
+                    <div class="text_phone2">+7 (906) 867-21-58</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="conteiner_data">
+                    <div class="text_phone1">Введите e-mail: </div>
+                    <div class="text_phone2">irinka@gmail.com</div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="area">Фрунзенский район</td>
+        </tr>
+        <tr>
+            <td class="opisanie">Ищем хозяев, нашли на улице недалеко от подъезда</td>
+        </tr>
+        <tr>
+            <td class="clemo">Клеймо имеется</td>
+        </tr>
+    </table>
+
+    <!-- 9.Подвал сайта-->
+    <footer class="basement footer">
+        <hr>
+        <div>
+            <div class="contacts ">
+                <div class="contacts1 color-contacts">Телефон “8 (800)123-45-67” </div>
+                <div class="color-contacts">e-mail: mail@newlife.ru</div>
+            </div>
+            <div>
+                <div class="color-contacts">Навигация по сайту:</div>
+                <a href="index.html">Главная</a><br>
+                <a href="register.html">Регистрация</a><br>
+                <a href="login.html">Авторизация</a><br>
+                <a href="profile.html">Личный кабинет</a><br>
+                <a href="pet.html">Найдено животное</a><br>
+                <a href="search.html">Поиск</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная - Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- <div class="main"> -->
+    <!--1.Шапка сайта-->
+    <div class="site-header">
+        <div class="img-site-header"><img class="img1"
+                src="img/logo.png"
+                alt="logo"></div>
+        <div class="site-header1">
+            <a href="search.html">Поиск</a>
+            <a href="register.html">Регистрация</a>
+            <a href="profile.html">Личный кабинет</a>
+            <a href="index.html">Главная</a>
+            <a href="add.html">Добавить</a>
+            <a href="orders-management.html">Отзывы</a>
+        </div>
+    </div>
+
+    <!--2.Вывод фотографий недавно добавленных объявлений-->
+
+    <div class="maincards"><div class="maincard ">
+        <div>
+            <div class="foto_pet"><img class="image_pet" src="img/dog.webp" alt="pet"> </div>
+            <div class="radio">
+                <div class="radio1"><input type="radio" name="pet"></div>
+                <div class="radio1"><input type="radio" name="pet" checked></div>
+                <div><input type="radio" name="pet"></div>
+            </div>
+        </div>
+        <div class="found_pet_main">
+            <div class="found_pet">Собака</div>
+            <div class="found_pet1">Нашли на улице, сидела около магазина. Голодная и очень истощена. Ищем хозяев!!
+            </div>
+            <div class="button1"><a class="pet_link " href="pet.html">Подробнее..</a></div>
+        </div>
+    </div></div>
+
+
+    <!--3.Секция с быстрым поиском животного-->
+    <form class="forma2">
+        <div class="Subscription search">
+            <div>
+                <input class="formaSearch buttonSearch" type="text" placeholder="Введите вид животного:" name="search"
+                    list="animals">
+                <datalist id="animals">
+                    <option value="Собака"></option>
+                    <option value="Кошка"></option>
+                    <option value="Хорек"></option>
+                    <option value="Морская свинка"></option>
+                </datalist>
+            </div>
+        
+            <div class="button">
+                <a href="search.html">Найти</a>
+            </div>
+        </div></form>
+
+
+    <!--4.Факты о компании и сайте-->
+    <div class="facts">
+        <div class="fact">Факты о компании и сайте:</div>
+        <div class="textfacts">&#10004; Помогли найти более 500 животных.</div>
+        <div class="textfacts">&#10004; Более трех лет способствуем возвращению питомцев к хозяевам.</div>
+        <div class="textfacts">&#10004; Все услуги оказываются бесплатно.</div>
+    </div>
+    <!--5.Карточки с найденными животными.-->
+    <div class="cards">Карточки с найденными животными:</div>
+    <div class="maincards">
+        <div class="card">
+            <div class="color_card">
+            <div><img class="image" src="img/cat.jpg" alt="cat"></div>
+            <div class="area">Невский район</div>
+            <div class="telephone">+7 (963) 698-63-17</div>
+            <div class="data">13.01.2023</div>
+            <div>индикатор</div>
+            <div class="user">зарегистрированный пользователь</div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="color_card">
+            <div><img class="image" src="img/dog.jpg" alt="dog"></div>
+            <div class="area">Фрунзенский район</div>
+            <div class="telephone">+7 (906) 867-21-58</div>
+            <div class="data">24.02.2023</div>
+            <div>индикатор</div>
+            <div class="user">незарегистрированный пользователь</div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="color_card">
+            <div><img class="image" src="img/ferret_h.jpg" alt="ferret"></div>
+            <div class="area">Кировский район</div>
+            <div class="telephone">+7 (927) 280-43-26</div>
+            <div class="data">20.02.2023</div>
+            <div>индикатор</div>
+            <div class="user">незарегистрированный пользователь</div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="color_card">
+            <div><img class="image" src="img/gopher.jpg" alt="gopher"></div>
+            <div class="area">Адмиралтейский район</div>
+            <div class="telephone">+7 (904) 613-12-90</div>
+            <div class="data">08.01.2023</div>
+            <div>индикатор</div>
+            <div class="user">зарегистрированный пользователь</div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="color_card">
+            <div><img class="image" src="img/guinea_pig.jpg" alt="pig"></div>
+            <div class="area">Московский район</div>
+            <div class="telephone">+7 (967) 519-39-28</div>
+            <div class="data">15.01.2023</div>
+            <div>индикатор</div>
+            <div class="user">незарегистрированный пользователь</div>
+        </div>
+        </div> 
+        <div class="card">
+            <div class="color_card">
+            <div><img class="image" src="img/cat2.jpg" alt="cat2"></div>
+            <div class="area">Пушкинский район</div>
+            <div class="telephone">+7 (936) 510-14-83</div>
+            <div class="data">31.12.2022</div>
+            <div>индикатор</div>
+            <div class="user">зарегистрированный пользователь</div>
+        </div></div>
+    </div>
+
+    <!--6.Форма поиска. Должна содержать следующие поля ввода:-->
+    <form class="forma_card">
+        <div class="submit">
+            <select name="area" id="area">
+                <option value="">Район</option>
+                <option value="nevsky">Невский район</option>
+                <option value="frunzensky">Фрунзенский район</option>
+                <option value="kirovsky">Кировский район</option>
+                <option value="moscow">Московский район</option>
+                <option value="admiralty">Адмиралтейский район</option>
+                <option value="pushkin">Пушкинский район</option>
+                
+            </select>
+        </div>
+        <div  class="submit">
+            <select id="type" name="type">
+                <option value="" selected>Вид животного</option>
+                <option value="cat">Кошка</option>
+                <option value="dog">Собака</option>
+                <option value="pig">Морская свинка</option>
+                <option value="gopher">Хорек</option>
+                
+            </select>
+        </div>
+        <div class="Subscription search">
+            <div>
+                <input class="formaSearch" type="text" placeholder="Введите вид животного:" name="search" list="animals">
+            </div>
+            <div class="button_form">
+                <a class="color_search" href="search.html">Искать</a>
+            </div>
+        </div>
+    </form>
+
+    <!--7.Отзывы владельцев питомцев-->
+    <div class="scrollable1">
+        <div class="scrollable ">
+            <div class="maindiv">
+                <div class="name">Анастасия</div>
+                <div><img class="image_reviews"
+                        src="img/dog_2.jpg"
+                        alt=""></div>
+                <div class="feedback1">Хочу сказать спасибо этой компании, за поиск домашних животных. Помогли
+                    за короткий срок найти любимого питомца!</div>
+                <div class="data_reviews">06.01.2023</div>
+            </div>
+            <div class="maindiv">
+                <div class="name">Олег</div>
+                <div><img class="image_reviews"
+                        src="img/puppy_dog.jpg" alt=""></div>
+                <div class="feedback1">Благодарен этому сайту по поиску животных, рекомендую всем!!</div>
+                <div class="data_reviews">13.04.3023</div>
+            </div>
+            <div class="maindiv">
+                <div class="name">Мария</div>
+                <div><img class="image_reviews"
+                        src="img/homa.jpg"
+                        alt=""></div>
+                <div class="feedback1">Дважды сбегала морская свинка, и дважды помогали её находить, спасибо вам!
+                </div>
+                <div class="data_reviews">18.10.2022</div>
+            </div>
+        </div>
+    </div>
+    <!--8.Форма для подписки на новости сервиса-->
+    <div>
+        <div class="fact">Подписка на новости сервиса</div>
+        <form class="forma2">
+            <fieldset>
+                <div class="Subscription"><input class="forma" type="email" name="type" pattern=".+@example\.com"
+                        required placeholder="Введите свой email:"></div>
+                <div class="Subscription">
+                    <div>
+                        <input type="checkbox" name="Subscription" id="Subscription">
+                    </div>
+                    <div class="subscription"> <label for="Subscription">подтвердите согласие на обработку персональных
+                            данных</label></div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="maincards">
+            <div class="buttonForm">Подписаться</div>
+        </div>
+    </div>
+    <!-- 9.Подвал сайта-->
+    <footer class="basement">
+        <hr>
+        <div>
+            <div class="contacts ">
+                <div class="contacts1 color-contacts">Телефон “8 (800)123-45-67” </div>
+                <div class="color-contacts">e-mail: mail@newlife.ru</div>
+            </div>
+            <div>
+                <div class="color-contacts">Навигация по сайту:</div>
+                <a href="index.html">Главная</a><br>
+                <a href="register.html">Регистрация</a><br>
+                <a href="login.html">Авторизация</a><br>
+                <a href="profile.html">Личный кабинет</a><br>
+                <a href="pet.html">Найдено животное</a><br>
+                <a href="search.html">Поиск</a>
+            </div>
+        </div>
+    </footer>
+    <!-- </div> -->
+</body>
+</html>

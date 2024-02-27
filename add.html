@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница добавления информации о найденном животном</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <div class="main">
+    <!--1.Шапка сайта-->
+    <div class="site-header">
+        <div class="img-site-header"><img class="img1" src="img/logo.png" alt="logo"></div>
+        <div class="site-header1">
+            <a href="search.html">Поиск</a>
+            <a href="register.html">Регистрация</a>
+            <a href="profile.html">Личный кабинет</a>
+            <a href="index.html">Главная</a>
+            <a href="add.html">Добавить</a>
+            <a href="#reviews">Отзывы</a>
+        </div>
+    </div>
+<div class="registr">Ещё не авторизовались? <a class="a_registr" href="login.html">Вход</a>/ <a class="a_registr" href="register.html">Регистрация</a> </div>
+
+    <!--Страница добавления информации о найденном животном-->
+    <form class="form_add">
+        <fieldset class=" color_fieldset fieldset_add">
+            <div>
+                <div class="text">Контактный номер: </div>
+                <div>
+                    <div><input  class="button1 colorButton" type="text" id="phone" name="phone" required placeholder="+7 (987) 654-32-10" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}"></div>
+                </div>
+                
+                <div class="text">E-mail: </div>
+                <div><input class="button1 colorButton" type="email" name="type" pattern="+@example\.com" required
+                placeholder="Введите email:"></div>
+                <div class="text"><label for="type">Вид животного</label></div>
+                <div>
+                    <input class="button1 colorButton" type="text" name="type" id="type" required placeholder="Введите вид животного">
+                </div>
+                <div class="text"><img src="" alt="">Фото животного</div>
+                <div class="test"><input type="file"></div>
+                <div class="text"><label class="opisanie_add" for="opisanie_form">Описание при котором найдено животное:</label></div>
+                <div>
+                    <input class="button1 colorButton" type="text" name="opisanie" id="opisanie_form" required placeholder="Напишите что-нибудь">
+                </div>
+                <div class="text"><label for="kleimo">Клеймо: </label></div>
+                <div>
+                        <input class="button2 colorButton" required type="radio" name="kleimo" id="kleimo">
+                        Есть
+                        <input class="button2 colorButton" required type="radio" name="kleimo" id="kleimo">
+                        Отсутствует
+                </div>  
+                <div class="text"><label for="area_form">Район</label></div>
+                    <input class="button1 colorButton" type="text" name="area" id="area_form" required placeholder="Введите район">
+                <div class="text"><label for="data_form">Дата, когда было найдено животное</label></div>
+                    <input  class="button1 colorButton" type="date" name="data" id="data_form" required>
+                
+                
+
+                <div>
+                    <div class=" add_registr"><div class="a_div_regisr"><a href="#text">Зарегестрироваться</a></div></div>
+                    <div id="text">
+                        <p><div class="text">Пароль</div>
+                        <div><input class="button1 colorButton" type="password" name="password" required placeholder="Введите пароль"></div>
+                        <div class="text">Повторите пароль</div>
+                        <div><input class="button1 colorButton" type="password" name="password" required placeholder="Повторите пароль"></div></p>
+                    </div>
+                </div>
+
+                <div class="Subscription">
+                <div>
+                    <input  class="button3 colorButton"  class="button1 colorButton" type="checkbox" name="Subscription" id="Subscription" required>
+                </div>
+                <div class="subscription"> <label for="Subscription">подтвердите согласие на обработку персональных
+                данных</label></div>
+                </div>
+                <button class="button_add">Добавить</button>
+            </div>
+        </fieldset>
+    </form>
+    <!-- 9.Подвал сайта-->
+    <footer class="basement footer">
+        <hr>
+        <div>
+            <div class="contacts ">
+                <div class="contacts1 color-contacts">Телефон “8 (800)123-45-67” </div>
+                <div class="color-contacts">e-mail: mail@newlife.ru</div>
+            </div>
+            <div>
+                <div class="color-contacts">Навигация по сайту:</div>
+                <a href="index.html">Главная</a><br>
+                <a href="register.html">Регистрация</a><br>
+                <a href="login.html">Авторизация</a><br>
+                <a href="profile.html">Личный кабинет</a><br>
+                <a href="pet.html">Найдено животное</a><br>
+                <a href="search.html">Поиск</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

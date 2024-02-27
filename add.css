@@ -1,0 +1,261 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.basement {
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.foto_pet {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.img1 {
+    width: 80px;
+    height: 80px;
+}
+
+.site-header1 {
+    margin-right: 50px;
+    margin-left: 3%;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.img-site-header {
+    margin-left: 33%;
+}
+
+a {
+    color: #cf9e81;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts1 {
+    margin-right: 15px;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/fon.webp);
+}
+.registr {
+text-align: center;
+word-wrap: break-word;
+margin-top: 10px;
+margin-bottom: 10px;
+width: 100%;
+}
+.color_fieldset {
+    background-color: #deaf93;
+}
+#text {
+    display: none;
+}
+#text:target {
+     display: block;
+}
+.a_div_regisr {
+    margin-top: 20px;
+    background-color: rgba(145, 87, 46, 0.664);
+    width: 400px;
+}
+.add_registr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.a_registr {
+    color: rgb(120, 60, 17);
+    font-size: larger;
+    font-weight: 500;
+}
+
+.Subscription {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    /* width: 450px; */
+}
+.subscription {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 12px;
+
+}
+
+
+.form_add {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+.fieldset_add {
+    width: 650px;
+}
+.button1 {
+    width: 500px;
+    height: 50px;
+    background-color: #efe2e2;;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.colorButton {
+    background-color: #efe2e2;
+}
+.text {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-top: 12px;
+}
+.button2 {
+    border-radius: 5px;
+    width: 25px;
+    height: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    /* margin-top: 15px; */
+}
+.button3 {
+    border-radius: 5px;
+    width: 25px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.text_radio {
+    width: 100px;
+}
+.button_add {
+    width: 115px;
+    height: 35px;
+    background-color: rgb(120, 60, 17);
+    color: beige;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+@media screen and (min-width: 650px) {
+    .button1 {
+        width: 650px;
+        height: 50px;
+        background-color: #efe2e2;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+
+    }
+
+    .fieldset_add {
+        width: 450px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .button1 {
+            width: 300px;
+            height: 50px;
+            background-color: #efe2e2;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            margin-left: 65px;
+        }
+        .fieldset_add {
+            width: 450px;
+        }
+}
+@media screen and (min-width: 440px) and (max-width: 500px) {
+    .button1 {
+        width: 300px;
+        height: 40px;
+        background-color: #efe2e2;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+    .fieldset_add {
+        width: 350px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 440px) {
+    .button1 {
+        width: 250px;
+        height: 40px;
+        background-color: #efe2e2;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-left: 70px;
+    }
+        .Subscription {
+            
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            /* width: 450px; */
+        }
+    .fieldset_add {
+        width: 200px;
+    }
+    .opisanie_add {
+        word-wrap: break-word;
+        width: 290px;
+    }
+}

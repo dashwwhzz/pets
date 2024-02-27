@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница с результатами поиска животных</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <!--1.Шапка сайта-->
+    <div class="site-header">
+        <div class="img-site-header"><img class="img1" src="img/logo.png" alt="logo"></div>
+        <div class="site-header1">
+            <a href="search.html">Поиск</a>
+            <a href="register.html">Регистрация</a>
+            <a href="profile.html">Личный кабинет</a>
+            <a href="index.html">Главная</a>
+            <a href="add.html">Добавить</a>
+            <a href="#reviews">Отзывы</a>
+        </div>
+    </div>
+    <!--Форма поиска животных: -->
+    <form class="forma_card">
+        <div class="submit search">
+            <select name="area" id="area">
+                <option value="">Район</option>
+                <option value="nevsky">Невский район</option>
+                <option value="frunzensky">Фрунзенский район</option>
+                <option value="kirovsky">Кировский район</option>
+                <option value="moscow">Московский район</option>
+                <option value="admiralty">Адмиралтейский район</option>
+                <option value="pushkin">Пушкинский район</option>
+    
+            </select>
+        </div>
+        <div class="submit search">
+            <select id="type" name="type">
+                <option value="" selected>Вид животного</option>
+                <option value="cat">Кошка</option>
+                <option value="dog">Собака</option>
+                <option value="pig">Морская свинка</option>
+                <option value="gopher">Хорек</option>
+    
+            </select>
+        </div>
+            <div>
+                <input class="formaSearch search" type="text" placeholder="Введите вид животного:" name="search" list="animals">
+            </div>
+            <div class="button_form search">
+                <a class="color_search " href="search.html">Искать</a>
+            </div>
+    </form>
+        <table class="table">
+            <tr>
+                <td class="table_pet td" rowspan="5">Кот</td>
+                <td class="table_pet1 td" rowspan="5"><img class="foto_pet" src="img/cat2.jpg" alt=""></td>
+                <td class="text_opisanie">Найден на чердаке, забился в угол и сидел дрожал</td>
+            </tr>
+            <tr>
+                <td class="text_kleimo">Клеймо отсутствует</td>
+            </tr>
+            <tr>
+                <td class="text_area">Звенигородский район</td>
+            </tr>
+            <tr>
+                <td class="text_data">22.02.2023</td>
+            </tr>
+            <tr>
+                <td class="text_phone td">+7 (936) 510-14-83</td>
+            </tr>
+
+            <tr>
+                <td class="table_pet td" rowspan="5">Собака</td>
+                <td class="table_pet1 td" rowspan="5"><img class="foto_pet" src="img/dog.jpg" alt=""></td>
+                <td class="text_opisanie">Найдена собака-девочка, не более 20 кг, около года, очень пугливая и осторожная</td>
+            </tr>
+            <tr>
+                <td class="text_kleimo">Есть клеймо</td>
+            </tr>
+            <tr>
+                <td class="text_area">Фрунзенский район</td>
+            </tr>
+            <tr>
+                <td class="text_data">24.02.2023</td>
+            </tr>
+            <tr>
+                <td class="text_phone td">+7 (906) 867-21-58</td>
+            </tr>
+
+            <tr>
+                <td class="table_pet td" rowspan="5">Морская свинка</td>
+                <td class="table_pet1 td" rowspan="5"><img class="foto_pet" src="img/guinea_pig.jpg" alt=""></td>
+                <td class="text_opisanie">Ищем хозяев, нашли на улице недалеко от подъезда</td>
+            </tr>
+            <tr>
+                <td class="text_kleimo">Клеймо отсутствует</td>
+            </tr>
+            <tr>
+                <td class="text_area">Московский район</td>
+            </tr>
+            <tr>
+                <td class="text_data">15.01.2023</td>
+            </tr>
+            <tr>
+                <td class="text_phone td">+7 (967) 519-39-28</td>
+            </tr>
+
+            <tr>
+                <td class="table_pet td" rowspan="5">Хорек</td>
+                <td class="table_pet1 td" rowspan="5"><img class="foto_pet" src="img/ferret_h.jpg" alt=""></td>
+                <td class="text_opisanie">Хорек ручной и дружелюбный, нашла в городском парке</td>
+            </tr>
+            <tr>
+                <td class="text_kleimo">Клеймо отсутствует</td>
+            </tr>
+            <tr>
+                <td class="text_area">Кировский район</td>
+            </tr>
+            <tr>
+                <td class="text_data">20.02.2023</td>
+            </tr>
+            <tr>
+                <td class="text_phone td">+7 (927) 280-43-26</td>
+            </tr>
+
+            <tr>
+                <td class="table_pet td" rowspan="5">Кот</td>
+                <td class="table_pet1 td" rowspan="5"><img class="foto_pet" src="img/cat.jpg" alt=""></td>
+                <td class="text_opisanie">Прятался под машиной, пугливый</td>
+            </tr>
+            <tr>
+                <td class="text_kleimo">Клеймо отсутствует</td>
+            </tr>
+            <tr>
+                <td class="text_area">Невский район</td>
+            </tr>
+            <tr>
+                <td class="text_data">13.01.2023</td>
+            </tr>
+            <tr>
+                <td class="text_phone td">+7 (963) 698-63-17</td>
+            </tr>
+        </table>
+
+    <!-- Пагинация -->
+    <div class="color_pag">
+    <div class="mainlower">
+    <div class="lowerdiv2 colorLowerDiv">Back</div>
+    <div class="mainnumber">
+        <div class="conteinermain colorconteinermain">
+            <div class="lowerdiv2">1</div>
+        </div>
+        <div class="conteinermain">
+            <div class="lowerdiv2">2</div>
+        </div>
+        <div class="conteinermain">
+            <div class="lowerdiv1">3</div>
+        </div>
+        <div class="conteinermain">
+            <div class="lowerdiv2">...</div>
+        </div>
+        <div class="conteinermain">
+            <div class="lowerdiv2">8</div>
+        </div>
+        <div class="conteinermain">
+            <div class="lowerdiv2">9</div>
+        </div>
+        <div class="conteinermain">
+            <div class="lowerdiv2">10</div>
+        </div>
+    </div>
+    <div class="lowerdiv">
+        <div class="lowerdiv2 colorLowerDiv">Next</div>
+    </div>
+    </div>
+</div>
+        <!-- 9.Подвал сайта-->
+        <footer class="basement footer">
+            <hr>
+            <div>
+                <div class="contacts ">
+                    <div class="contacts1 color-contacts">Телефон “8 (800)123-45-67” </div>
+                    <div class="color-contacts">e-mail: mail@newlife.ru</div>
+                </div>
+                <div>
+                    <div class="color-contacts">Навигация по сайту:</div>
+                    <a href="index.html">Главная</a><br>
+                    <a href="register.html">Регистрация</a><br>
+                    <a href="login.html">Авторизация</a><br>
+                    <a href="profile.html">Личный кабинет</a><br>
+                    <a href="pet.html">Найдено животное</a><br>
+                    <a href="search.html">Поиск</a>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

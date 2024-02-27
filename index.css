@@ -1,0 +1,589 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(img/fon.webp);
+}
+/*  ), */
+.basement {
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.foto_pet {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.img1 {
+    width: 80px;
+    height: 80px;
+}
+
+.site-header1 {
+    margin-right: 50px;
+    /* margin-left: 3%; */
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+.img-site-header {
+    margin-left: 33%;
+}
+
+a {
+    color: #cf9e81;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts1 {
+    margin-right: 15px;
+}
+
+.color-contacts {
+    color: #6f5545;
+}
+
+.input {
+    background-color: #f2f2f2;
+}
+
+.facts {
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.fact {
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.cards {
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+    margin-bottom: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image {
+    width: 220px;
+    height: 180px;
+}
+
+.image_reviews {
+    width: 190px;
+    height: 120px;
+}
+
+.area {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.telephone {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 650;
+    line-height: 32px;
+}
+
+.data {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.user {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    color: #6f5545;
+}
+
+.maincards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+}
+.color_card {
+    background-color: #c35a3d82;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.textfacts {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.buttonForm {
+    display: flex;
+    width: 150px;
+    height: 46px;
+    background: #cf9e81;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: Inter;
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subscription {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 12px;
+}
+
+.Subscription {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+}
+
+.forma2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+}
+
+.forma {
+    width: 400px;
+    height: 35px;
+    background: #e5dad4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.formaSearch {
+    width: 200px;
+    height: 35px;
+    background: #e5dad4;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+fieldset {
+    border-radius: 8px;
+    background-color: #cf9e81c6;
+}
+
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #6f5545;
+    border-radius: 8px;
+    background: #F9F0DA;
+    color: #9E9C9C;
+}
+
+.buttonSearch {
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #6f5545;
+    background: #F9F0DA;
+    color: #9E9C9C;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.button {
+    width: 80px;
+    height: 47px;
+    background: #6f5545;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    margin-top: 20px;
+}
+
+.radio {
+    /* width: 20px;
+    height: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.radio1 {
+    margin-right: 13px;
+}
+
+.maincard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: #cf9e81c6;
+    width: fit-content;
+    border-radius: 15px;
+    /* margin-left: 35%; */
+    /* width: 600px; */
+
+}
+
+.pet_link {
+    text-align: center;
+    color: #f0b799;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+}
+
+.found_pet_main {
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.found_pet {
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #412617;
+    width: 200px;
+    height: 120px;
+    /* margin-left: 65px;
+    margin-bottom: -20px;
+    margin-top: 30%; */
+}
+
+.found_pet1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: #5e3c28;
+    width:200px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+.forma_card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 70px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #e0a88ab6;
+    border-radius: 25px;
+}
+
+.button_form {
+    width: 80px;
+    height: 40px;
+    background: #e0a88ab6;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #573826;
+}
+.color_search {
+    color: #573826;
+}
+/* .submit {
+    display: flex;
+    width: 20px;
+    height: 10px;
+} */
+
+#area {
+    background-color: #e993649a;
+    width: 120px;
+    height: 25px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+#type {
+    background-color: #e993649a;
+    width: 120px;
+    height: 25px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.scrollable {
+    display: flex;
+    width: 700px;
+    height: 450px;
+    overflow-x: scroll;
+    background-color: #ecb08da2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.scrollable1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: x-large;
+    color: #bababa;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px
+}
+
+.feedback1 {
+    width: 200px;
+    height: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.feedback {
+    width: 200px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.maindiv {
+    background-color: #8b593b9f;
+    margin: 25px 50px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.data_reviews {
+    font-weight: bold;
+}
+@media screen and (min-width: 1350px){
+    .card {
+            width: 20%;
+            margin-bottom: 20px;
+            margin: 0 auto;
+            margin-left: 8%;
+        }
+    .image {
+        width: 220px;
+        height: 180px;
+    }
+        .forma_card {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 50px 70px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            background-color: #e0a88ab6;
+            border-radius: 25px;
+        }
+    .forma2 {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 33%;
+        margin-bottom: 20px;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .card {
+        width: 50%;
+        margin-bottom: 20px;
+        margin: 0 auto;
+        /* margin-left: 2%; */
+    }
+    .image {
+        width: 180px;
+        height: 140px;
+    }
+        .forma_card {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px 50px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            background-color: #e0a88ab6;
+            border-radius: 25px;
+        }
+        .forma2 {
+            width: 300px;
+        }
+        .button1 {
+            width: 100px;
+            height: 50px;
+            background-color: #bababa;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            margin-left: 45px;
+            margin-top: 20%;
+            margin-bottom: 5px;
+        }
+}
+@media screen and (max-width: 500px) {
+    .card {
+        width: 165px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+        margin-left: 2%;
+    }
+
+    .image {
+        width: 130px;
+        height: 90px;
+    }
+        .forma_card {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            word-wrap: break-word;
+            padding: 10px 25px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            background-color: #e0a88ab6;
+            border-radius: 25px;
+        }
+    .forma2 {
+        width: 100px;
+    }
+    .button1 {
+        margin-bottom: 10px;
+    }
+        .color_card {
+            background-color: #c35a3d82;
+            margin-top: 20px;
+            text-align: center;
+            padding: 20px 20px;
+            border-radius: 20px;
+            width: 150px;
+        }
+        .button {
+    width: 80px;
+    height: 47px;
+    margin-top: 8px;
+    background: #6f5545;
+    border-radius: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Subscription {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+}
+.button1 {
+    width: 100px;
+    height: 50px;
+    background-color: #684d2bd3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 45px;
+}
